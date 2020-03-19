@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# ffmpeg -formats
+
+for f in *.mp3; do
+    ffmpeg -y \
+        -i "$f" \
+        -acodec pcm_s16le \
+        -f s16le \
+        -ac 1 \
+        -ar 16000 \
+        "${f%%.*}".pcm    
+done
