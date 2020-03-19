@@ -2,6 +2,16 @@
 
 COVID-19 Coughs files for training AI models
 
+# Project pages
+
+  - AI Cough Detection App https://app.jogl.io/project/132
+
+# Usage
+
+  - Use [Youtube-dl helper](https://github.com/hernanmd/yt) to automate download from youtube
+    - download_audio_files to re-download audio files in MP3 format.
+  - Use mp3toPCM to convert files using ffmpeg.
+
 # Changes
 
   - Added script to download audio files from YouTube.
@@ -17,7 +27,8 @@ COVID-19 Coughs files for training AI models
 
 # Research
 
-  - Analysis of Clinicians' Perceptual Cough Evaluation
+  - Analysis of Clinicians' Perceptual Cough Evaluation-
+  - https://uvadoc.uva.es/bitstream/handle/10324/38797/TFG-G3737.pdf?sequence=1&isAllowed=y
 
 # Devices
 
