@@ -1,0 +1,10 @@
+No., Gender, Cough with mucus, Cough with wheeze, Diagnosis, Category
+1, Female, no, no, Laryngitis, A
+2, Male, yes, yes, COPD/Bronchiectasis, D
+3, Female, no, yes, COPD, C
+4, Male, no, no, IPF, A
+5, Female, no, no, IPF, A
+6, Female, no, yes, Asthma, C
+7, Male, no, yes, Asthma, C
+8, Male, yes, no, Bronchiectasis, B
+9, Male, yes, yes, COPD, D
