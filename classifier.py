@@ -5,7 +5,7 @@
 import librosa
 import numpy as np
 
-audio = 'F://ml//projects//soundy numpy//soundy numpy//roshan-test.wav' 
+audio = 'audio.wav' 
 y , sr = librosa.load(audio, mono=True, duration=1)
 
 #features
