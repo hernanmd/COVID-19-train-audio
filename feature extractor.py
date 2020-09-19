@@ -5,7 +5,7 @@ import numpy as np
 #Run all the sound files get all the feature data and write it to
 #a csv file
 
-audio = 'F://ml//projects//soundy numpy//ramana-test.wav' 
+audio = 'audio.wav' 
 y , sr = librosa.load(audio, mono=True, duration=1)
 #features
 chroma_stft = librosa.feature.chroma_stft(y=y, sr=sr)
@@ -17,19 +17,18 @@ mfcc = librosa.feature.mfcc(y=y, sr=sr)
 
 #printing the data
 print(np.mean(chroma_stft))
-print(".................................")
+
 
 print(np.mean(spec_cent))
-print(".................................")
+
 
 print(np.mean(spec_bw))
-print(".................................")
+
 
 print(np.mean(rolloff))
-print(".................................")
+
 
 print(np.mean(zcr))
-print(".................................")
+
 
 print(np.mean(mfcc))
-print(".................................")
