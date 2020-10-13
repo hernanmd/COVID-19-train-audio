@@ -18,4 +18,3 @@ mfcc = librosa.feature.mfcc(y=y, sr=sr)
 # printing the data
 for feature in (chroma_stft, spec_cent, spec_bw, rolloff, zcr, mfcc):
     print(np.mean(feature))
-
